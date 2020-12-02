@@ -158,7 +158,7 @@ html{
   align-items: center;
   font-family: serif;
   font-size: 2.5vmax;
-  margin: 0 0.6em;
+  padding: 0 0.5em;
 }
 /*for posts following and followers*/
 .number{
