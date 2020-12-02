@@ -1,0 +1,67 @@
+/*css reset*/
+*{
+    margin: 0;
+    padding: 0;
+}
+/*font*/
+@font-face{
+    font-family: 'Billabong';
+    src: url('fonts/FontsFree-Net-Billabong.ttf') format('truetype');
+}
+
+/*navbar*/
+.navbar{
+    position: fixed;
+    top: 0;
+}
+.navlist{
+    padding: 0.2em 0.1em;
+    list-style: none;
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    box-shadow: 0px 1px 1px 1px #e8e8e8;
+}
+.navitem{
+    padding: 0 .1em;
+}
+.navitem a img{
+    height: 7vh;
+    width: 8vw;
+}
+#search{
+    padding-right: 0.3em;
+}
+.logo{
+    font-size: 8vw;
+    font-weight: 600;
+    font-family: 'Billabong';    
+    padding: 0 2.5em;
+    letter-spacing: 2px;
+}
+/*contentbar*/
+/* .contentbar{
+    height: auto;
+    scroll-behavior: smooth;
+    overflow: scroll;
+}
+.contentbar img{
+    height: 35vh;
+    width: 50vw;
+} */
+/*menubar*/
+.menubar{
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 0;
+}
+.menulist{
+    display: flex;
+    width: 100vw;
+    list-style: none;
+    justify-content: space-evenly;
+    background-color: #ffffff;
+    box-shadow: 0px -1px 1px 1px #e8e8e8;
+}
