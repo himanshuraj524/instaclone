@@ -1,99 +1,114 @@
 /*css reset*/
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 /*font*/
-@font-face{
-    font-family: 'Billabong';
-    src: url('fonts/FontsFree-Net-Billabong.ttf') format('truetype');
+@font-face {
+  font-family: "Billabong";
+  src: url("fonts/FontsFree-Net-Billabong.ttf") format("truetype");
 }
 
 /*navbar*/
-.navbar{
-    position: fixed;
-    top: 0;
+.navbar {
+  position: fixed;
+  top: 0;
 }
-.navlist{
-    padding: 0.2em 0.1em;
-    list-style: none;
-    display: flex;
-    width: 100vw;
-    justify-content: center;
-    align-items: center;
-    background-color: #ffffff;
-    box-shadow: 0px 1px 1px 1px #e8e8e8;
+/*navigation list*/
+.navlist {
+  padding: 0.2em 0.1em;
+  list-style: none;
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  box-shadow: 0px 1px 1px 1px #e8e8e8;
 }
-.navitem{
-    padding: 0 .1em;
+/*navigation menu*/
+.navitem {
+  padding: 0 0.1em;
 }
-.navitem a img{
-    height: 7vh;
-    width: 8vw;
+
+/*navigation icons*/
+.navitem a img {
+  height: 7vh;
+  width: 8vw;
 }
-#search{
-    padding-right: 0.3em;
+
+/*search icon*/
+#search {
+  padding-right: 0.3em;
 }
-.logo{
-    font-size: 8vw;
-    font-weight: 600;
-    font-family: 'Billabong';    
-    padding: 0 2.5em;
-    letter-spacing: 2px;
+/*yaarme log*/
+.logo {
+  font-size: 8vw;
+  font-weight: 600;
+  font-family: "Billabong";
+  padding: 0 2.5em;
+  letter-spacing: 2px;
 }
 /*contentbar*/
-.contentbar{
-    max-height: 80vh;
-    scroll-behavior: smooth;
-    overflow-y: scroll;
-    margin-top:4.1em;
+.contentbar {
+  max-height: 80vh;
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+  margin-top: 4.1em;
 }
-.contents{
-    display: flex;
-    flex-direction: column;
-    padding: 0.5em 0.3em;
+/*Post container*/
+.contents {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5em 0.3em;
 }
-.user-info{
-    display: flex;
-    align-items: center;
+/*user info container*/
+.user-info {
+  display: flex;
+  align-items: center;
 }
-.username{
-    font-family: sans-serif;
-    font-size: 2.5vmax;
-    align-self: center;
+/*username*/
+.username {
+  font-family: sans-serif;
+  font-size: 2.5vmax;
+  align-self: center;
 }
-.user-info img{
-    height: 2em;
-    width: 2em;
-    padding: 0 0.2em;
-    border-radius: 50%;
+/*user display picture*/
+.user-info img {
+  height: 2em;
+  width: 2em;
+  padding: 0 0.2em;
+  border-radius: 50%;
 }
-.user-post{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 0.4em 0;
+/*user post*/
+.user-post {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0.4em 0;
 }
-.user-post img{
-    max-height: 50vh;
-    max-width: 99vw;
+/*user post image*/
+.user-post img {
+  max-height: 50vh;
+  max-width: 99vw;
 }
-.user-post span{
-    align-self: baseline;
+/*username under post*/
+.user-post span {
+  align-self: baseline;
 }
-.caption{
-    font-size: 2vmax;
-    font-family: sans-serif;
-
+/*post caption*/
+.caption {
+  font-size: 2vmax;
+  font-family: sans-serif;
 }
 /*menubar*/
-.menubar{
-    position: fixed;
-    bottom: 0;
-    margin-bottom: 0;
+.menubar {
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 0;
 }
-.menubar .navlist{
-    box-shadow: 0px -1px 1px 1px #e8e8e8;
-    justify-content: space-evenly;
+/*menubar navigations*/
+.menubar .navlist {
+  box-shadow: 0px -1px 1px 1px #e8e8e8;
+  justify-content: space-evenly;
 }
