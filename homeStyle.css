@@ -169,3 +169,13 @@ html{
 .dir-2{
   flex-direction: column;
 }
+
+/***likepage design***/
+/*used navbar, contentbar, user-info, username, content from above*/
+.weight{
+  font-weight: 700;
+  padding: 0 0.5em;
+}
+.my-2{
+  margin: 0.7em 0;
+}
