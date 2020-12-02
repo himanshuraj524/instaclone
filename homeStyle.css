@@ -13,6 +13,7 @@ html{
     scroll-behavior: smooth;
 }
 
+/*homepage design*/
 /*navbar*/
 .navbar {
   position: fixed;
@@ -56,6 +57,7 @@ html{
 .contentbar {
   max-height: 83vh;
   overflow-y: scroll;
+  margin-top: 4.1em;
   margin-top: 8vmax;
   margin-bottom: 2vmax;
 }
@@ -115,4 +117,55 @@ html{
 .menubar .navlist {
   box-shadow: 0px -1px 1px 1px #e8e8e8;
   justify-content: space-evenly;
+}
+
+/*profile page design*/
+/*used navbar,navlist,logo,contentbar,contents from above.*/
+/*user dp with details*/
+.userdata{
+  height: 20vh;
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+/*user dp*/
+.userdata img{
+  height: 15vh;
+  width: 27vw;
+  border-radius: 50%;
+}
+/*username*/
+.userdata .username{
+  font-weight: 700;
+}
+/*for .contents*/
+.dir{
+  flex-direction: row;
+}
+/*for posts following and followers*/
+.number-data{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*for posts following and followers*/
+.pff{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: serif;
+  font-size: 2.5vmax;
+  margin: 0 0.6em;
+}
+/*for posts following and followers*/
+.number{
+  font-weight: 700;
+}
+
+/* for showing posts inside the contentbar*/
+.dir-2{
+  flex-direction: column;
 }
