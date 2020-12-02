@@ -42,15 +42,51 @@
     letter-spacing: 2px;
 }
 /*contentbar*/
-/* .contentbar{
-    height: auto;
+.contentbar{
+    height: 83vh;
     scroll-behavior: smooth;
-    overflow: scroll;
+    overflow-y: scroll;
+    margin-top:4.1em;
 }
-.contentbar img{
-    height: 35vh;
-    width: 50vw;
-} */
+.contents{
+    display: flex;
+    flex-direction: column;
+    padding: 0.5em 0.3em;
+}
+.user-info{
+    display: flex;
+    align-items: center;
+}
+.username{
+    font-family: sans-serif;
+    font-size: 2.5vmax;
+    align-self: center;
+}
+.user-info img{
+    height: 2em;
+    width: 2em;
+    padding: 0 0.2em;
+    border-radius: 50%;
+}
+.user-post{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0.4em 0;
+}
+.user-post img{
+    max-height: 50vh;
+    max-width: 99vw;
+}
+.user-post span{
+    align-self: baseline;
+}
+.caption{
+    font-size: 2vmax;
+    font-family: sans-serif;
+
+}
 /*menubar*/
 .menubar{
     position: fixed;
