@@ -8,6 +8,10 @@
   font-family: "Billabong";
   src: url("fonts/FontsFree-Net-Billabong.ttf") format("truetype");
 }
+/*scroll behaviour*/
+html{
+    scroll-behavior: smooth;
+}
 
 /*navbar*/
 .navbar {
@@ -50,8 +54,7 @@
 }
 /*contentbar*/
 .contentbar {
-  max-height: 80vh;
-  scroll-behavior: smooth;
+  max-height: 83vh;
   overflow-y: scroll;
   margin-top: 4.1em;
 }
