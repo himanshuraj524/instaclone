@@ -60,6 +60,7 @@
 .menulist{
     display: flex;
     width: 100vw;
+    padding: 1em 0;
     list-style: none;
     justify-content: space-evenly;
     background-color: #ffffff;
