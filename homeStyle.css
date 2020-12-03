@@ -179,3 +179,23 @@ html{
 .my-2{
   margin: 0.7em 0;
 }
+
+/*****post page design****/
+/*used navbar, navlist,navitem,contentbar,heading from above*/
+/*main post container*/
+.post-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20vh 2vw;
+    height: 33vh;
+}
+/*heading inside post*/
+.post-info .heading{
+  font-size: 3vmax;
+}
+/*icon inside post*/
+.post-info img{
+  height: 40px;
+}
