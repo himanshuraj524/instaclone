@@ -227,3 +227,7 @@ html{
   color: #000000;
   outline: none;
 }
+
+.searchpage .contentbar{
+  max-height: 10vh;
+}
