@@ -17,7 +17,7 @@
             <li class="navitem"><a href="#"><img src="icons/camera.svg" alt="camera"></a></li>
             <li class="logo">YaarMe</li>
             <li class="navitem"><a href="#"><img src="icons/search.svg" alt="search" id="search"></a></li>
-            <li class="navitem"><a href="#"><img src="icons/message.svg" alt="message"></a></li>
+            <li class="navitem"><a href="#"><img src="icons/message.svg" alt="message" id="message"></a></li>
         </ul>
     </nav>
     <!-- homepage post container -->
@@ -106,7 +106,22 @@
     <!-- menuitems blocks -->
     <!-- video-page -->
     <div class="videopage">
-        <h1>videodata</h1>
+        <nav class="navbar">
+            <ul class="navlist justify">
+                <li class="navitem">
+                    <span class="logo reel">Reels</span>
+                </li>
+                <li class="navitem"><a href="#"><img src="icons/camera.svg" alt=""></a></li>
+            </ul>
+        </nav>
+        <div class="contentbar">
+            <div class="post-info">
+                <p class="heading">
+                    To post reel click on the below icon.
+                </p>
+                <img src="icons/reelpost.svg" alt="">
+            </div>
+        </div>
     </div>
     <!-- post-page -->
     <div class="postpage">
@@ -266,6 +281,23 @@
             </div>
         </div>
     </div>
+    </div>
+
+    <!-- searchpage -->
+    <div class="searchpage">
+        <nav class="navbar">
+            <ul class="navlist">
+                <li class="navitem">
+                    <span class="logo">Search.</span>
+                </li>
+            </ul>
+        </nav>
+        <div class="contentbar">
+            <div class="contents">
+            <input type="text" class="searchbox" name="searchtext" id="searchtext"
+            placeholder="@search...">
+        </div>
+        </div>
     </div>
 
     <!-- lower manu bar -->

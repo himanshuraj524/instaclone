@@ -40,6 +40,11 @@ html{
   height: 7vh;
   width: 8vw;
 }
+/*message icon in navbar*/
+#message{
+  height: 4.7vh;
+  width: 7.8vw;
+}
 
 /*search icon*/
 #search {
@@ -198,4 +203,27 @@ html{
 /*icon inside post*/
 .post-info img{
   height: 40px;
+}
+
+/****video page*****/
+.reel{
+  padding: 0;
+}
+.justify{
+  justify-content: space-around;
+  align-items: center;
+}
+
+/***search style**/
+/*search box style*/
+.searchbox{
+  border-radius: 6px;
+  align-self: center;
+  padding: 0.4em 0.6em;
+  border: none;
+  background-color: #e8e8e8;
+  font-size: 2.5vmax;
+  font-family: sans-serif;
+  color: #000000;
+  outline: none;
 }
