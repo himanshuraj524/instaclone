@@ -11,6 +11,7 @@
 /*scroll behaviour*/
 html{
     scroll-behavior: smooth;
+    overflow: hidden;
 }
 
 /*homepage design*/
@@ -233,3 +234,76 @@ html{
 }
 
 /**messagebox all previous design used***/
+
+
+/***media query for full screen***/
+@media screen and (min-width: 550px){
+  .navbar{
+    width: 100%;
+  }
+  .logo{
+    font-size: 2em;
+  }
+  .navlist{
+    width: 100%;
+    margin: 0.1em auto;
+  }
+  .navitem{
+    padding: 0 3em;
+
+  }
+  .logo{
+    padding: 0 2em;
+  }
+  .navitem a img {
+    height: 2em;
+    width: 2em;
+  }
+  #message {
+    height: 2em;
+    width: 2em;
+  }
+  .contentbar{
+    max-height: 82vh;
+    max-width: 30vw;
+    margin: 3.5em auto;
+  }
+  .contentbar::-webkit-scrollbar{
+    width: 0;
+  }
+  .username{
+    font-size: 0.9em;
+  }
+  .user-post img {
+    max-height: 50vh;
+    max-width: 40vw;
+  }
+  .caption {
+    font-size: 0.7em;
+    margin-left: 5px;  
+  }
+
+  .menubar{
+    width: 100%;
+  }
+  .menubar .navlist{
+    justify-content: center;
+  }
+  /*****user profile*****/
+  .userdata {
+    height: 12vh;
+    width: 6vw;
+  }
+  .userdata img{
+    height: 9vh;
+    width: 7vw;
+  }
+  .number-data{
+    margin-left: 0.4em;
+  }
+
+  .pff {
+    font-size: 0.8em;
+    padding: 0 1em;
+  }
+}
