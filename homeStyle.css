@@ -71,6 +71,7 @@ html{
 .contents {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   padding: 0.5em 0.3em;
 }
 /*user info container*/
@@ -129,21 +130,19 @@ html{
 /*used navbar,navlist,logo,contentbar,contents from above.*/
 /*user dp with details*/
 .userdata{
-  height: 20vh;
-  width: 40vw;
+  height: 10vh;
+  width: 20vw;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
 }
 /*user dp*/
-.userdata img{
-  height: 15vh;
-  width: 27vw;
-  border-radius: 50%;
+.col{
+  flex-direction: column;
 }
 /*username*/
-.userdata .username{
+.user-info .username{
   font-weight: 700;
 }
 /*for .contents*/
@@ -237,7 +236,7 @@ html{
 
 
 /***media query for full screen***/
-@media screen and (min-width: 550px){
+@media screen and (min-width: 769px){
   .navbar{
     width: 100%;
   }
@@ -264,19 +263,25 @@ html{
     width: 2em;
   }
   .contentbar{
-    max-height: 82vh;
-    max-width: 30vw;
+    min-height: 80vh;
+    max-height: 83vh;
+    max-width: 35vw;
+    min-width: 30vw;
     margin: 3.5em auto;
+  }
+  .contents{
+    justify-content: center;
   }
   .contentbar::-webkit-scrollbar{
     width: 0;
   }
   .username{
     font-size: 0.9em;
+    font-weight: 600;
   }
   .user-post img {
-    max-height: 50vh;
-    max-width: 40vw;
+    max-height: 35%;
+    max-width: 100%;
   }
   .caption {
     font-size: 0.7em;
@@ -290,13 +295,8 @@ html{
     justify-content: center;
   }
   /*****user profile*****/
-  .userdata {
-    height: 12vh;
-    width: 6vw;
-  }
-  .userdata img{
-    height: 9vh;
-    width: 7vw;
+  .col{
+    flex-direction: column;
   }
   .number-data{
     margin-left: 0.4em;
