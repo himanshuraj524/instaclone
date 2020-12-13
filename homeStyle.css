@@ -61,7 +61,7 @@ html{
 }
 /*contentbar*/
 .contentbar {
-  max-height: 83vh;
+  max-height: 75vh;
   overflow-y: scroll;
   margin-top: 4.1em;
   margin-top: 8vmax;
